@@ -9,11 +9,6 @@
   </a>
 </div>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/tomato-runner-mobile.svg">
-  <img src="./assets/tomato-runner.svg" width="100%" alt="一个巨大的番茄在 GitHub 风格活动轨道上往返滚动">
-</picture>
-
 <p align="center">
   <a href="#projects">项目与作品</a> ·
   <a href="#skills">能力工具箱</a> ·
@@ -27,22 +22,17 @@
 </p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/tomato-lab-mobile.svg">
-  <img src="./assets/tomato-lab.svg" width="100%" alt="包含 Tomato OS、番茄 X 光蓝图和粒子对撞机的抽象实验室">
-</picture>
-
-<picture>
   <source media="(max-width: 600px)" srcset="./assets/quick-facts-mobile.svg">
   <img src="./assets/quick-facts.svg" width="100%" alt="软件学院学生、英语能力、AI Agent 基础与大模型训练学习快照">
 </picture>
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/tomato-heatmap-mobile.svg">
-  <img src="./assets/tomato-heatmap.svg" width="100%" alt="由真实 GitHub 贡献数据生成的番茄成熟度热力图">
-</picture>
-
 > [!NOTE]
 > **Now**：正在学习大模型训练与评测，持续构建 AI Agent、前端体验与 Kotlin 工程能力。
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/tomato-runner-mobile.svg">
+  <img src="./assets/tomato-runner.svg" width="100%" alt="巨型番茄缓慢滚过明亮而舒展的抽象风景">
+</picture>
 
 <h2 id="projects">项目与作品</h2>
 
@@ -99,6 +89,11 @@
 > 敬，真相与自由！
 
 <h2 id="about">关于</h2>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/tomato-heatmap-mobile.svg">
+  <img src="./assets/tomato-heatmap.svg" width="100%" alt="由真实 GitHub 贡献数据生成的番茄成熟度热力图">
+</picture>
 
 <img src="./assets/stats.svg" width="100%" alt="Public GitHub repositories, stars, primary language and recent update">
 

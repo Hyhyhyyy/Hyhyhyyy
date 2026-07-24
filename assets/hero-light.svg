@@ -1,26 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc">
-  <title id="title">Hyhyhyyy Tomato Laboratory</title><desc id="desc">A bright experimental profile cover built from stacked tomatoes.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title desc">
+  <title id="title">Hyhyhyyy grows in color</title><desc id="desc">An airy editorial landscape with a slowly floating tomato sun.</desc>
   <defs>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#31120c" flood-opacity=".28"/></filter>
-    <symbol id="tomato" viewBox="-60 -68 120 128"><circle r="54" fill="#ff4d35"/><circle cx="-18" cy="-20" r="13" fill="#ff8069" opacity=".7"/><path d="M-36-39l26 5 10-31 12 30 35-8-24 25-27-8-25 14z" fill="#63c54b"/><path d="M0-48l8-19" stroke="#358d37" stroke-width="7" stroke-linecap="round"/><circle cx="-18" cy="0" r="4" fill="#172b39"/><circle cx="18" cy="0" r="4" fill="#172b39"/><path d="M-17 18q17 16 34 0" fill="none" stroke="#fff9d9" stroke-width="5" stroke-linecap="round"/></symbol>
-    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#172b39" opacity=".16"/></pattern>
+    <radialGradient id="fruit"><stop stop-color="#ff806b"/><stop offset=".68" stop-color="#ff5a43"/><stop offset="1" stop-color="#ef4434"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#702419" flood-opacity=".2"/></filter>
   </defs>
-  <style>text{font-family:Arial,"Microsoft YaHei",sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.float{transform-box:fill-box;transform-origin:center;animation:float 4.8s ease-in-out infinite}.float2{animation-delay:-2.1s}.scan{animation:scan 4s linear infinite}@keyframes float{50%{transform:translateY(-12px) rotate(4deg)}}@keyframes scan{0%{transform:translateX(-40px)}100%{transform:translateX(1040px)}}@media(prefers-reduced-motion:reduce){.float,.scan{animation:none}}</style>
-  <rect width="1000" height="440" rx="18" fill="#fff04a"/><rect width="1000" height="440" rx="18" fill="url(#dots)"/>
-  <path d="M0 0h1000v22H0zM0 418h1000v22H0z" fill="#48d7e8"/><path d="M0 22h1000v7H0z" fill="#172b39"/>
-  <g opacity=".97" filter="url(#shadow)">
-    <g transform="translate(735 95)"><g class="float"><use href="#tomato" width="170" height="180" x="-85" y="-90"/></g></g>
-    <g transform="translate(872 110) rotate(13)"><use href="#tomato" width="155" height="165" x="-77" y="-82"/></g>
-    <g transform="translate(650 220) rotate(-14)"><use href="#tomato" width="180" height="190" x="-90" y="-95"/></g>
-    <g transform="translate(815 245)"><g class="float float2"><use href="#tomato" width="205" height="215" x="-102" y="-108"/></g></g>
-    <g transform="translate(950 245) rotate(17)"><use href="#tomato" width="165" height="175" x="-82" y="-88"/></g>
-    <g transform="translate(715 370) rotate(9)"><use href="#tomato" width="170" height="180" x="-85" y="-90"/></g>
-    <g transform="translate(895 374) rotate(-8)"><use href="#tomato" width="190" height="200" x="-95" y="-100"/></g>
-  </g>
-  <rect x="34" y="34" width="181" height="29" rx="14" fill="#172b39"/><text class="mono" x="51" y="54" font-size="11" fill="#fff04a">TOMATO_LAB / 2029</text>
-  <text x="36" y="168" font-size="84" font-weight="900" letter-spacing="-5" fill="#172b39">Hyhyhyyy</text><rect x="36" y="188" width="430" height="9" fill="#ff4d35"/>
-  <text x="39" y="235" font-size="18" font-weight="700" fill="#172b39">&#22823;&#36830;&#29702;&#24037;&#22823;&#23398; &#183; &#36719;&#20214;&#23398;&#38498; &#183; 2029</text>
-  <text x="39" y="287" font-size="29" font-weight="900" fill="#172b39">&#25964;&#65292;&#30495;&#30456;&#19982;&#33258;&#30001;&#65281;</text>
-  <rect x="38" y="320" width="345" height="55" fill="#172b39"/><text class="mono" x="58" y="343" font-size="10" fill="#48d7e8">STATUS: CURIOUS / RELIABLE / BUILDING</text><text x="58" y="364" font-size="13" font-weight="700" fill="#fff">AI AGENT &#183; KOTLIN &#183; FRONTEND &#183; LLM</text>
-  <path class="scan" d="M0 30v380" stroke="#fff" stroke-width="3" opacity=".55"/><text class="mono" x="846" y="410" font-size="9" fill="#172b39">STACK_ID 07 / LIVE</text>
+  <style>text{font-family:Arial,"Microsoft YaHei",sans-serif}.serif{font-family:Georgia,"Noto Serif SC","Microsoft YaHei",serif}.mono{font-family:ui-monospace,Consolas,monospace}.sun{transform-box:fill-box;transform-origin:center;animation:float 7s ease-in-out infinite}.leaf{transform-box:fill-box;transform-origin:center bottom;animation:sway 5s ease-in-out infinite}.cloud1{animation:drift 14s ease-in-out infinite}.cloud2{animation:drift 18s ease-in-out infinite reverse}.line{stroke-dasharray:280;animation:draw 7s ease-in-out infinite}@keyframes float{50%{transform:translateY(-15px)}}@keyframes sway{50%{transform:rotate(7deg)}}@keyframes drift{50%{transform:translateX(32px)}}@keyframes draw{0%,100%{stroke-dashoffset:280}45%,70%{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.sun,.leaf,.cloud1,.cloud2,.line{animation:none}}</style>
+  <rect width="1000" height="480" rx="18" fill="#fff8e7"/><path d="M0 0h1000v92H0z" fill="#69d5d0"/><path d="M0 376h1000v104H0z" fill="#ffcf4d"/><path d="M0 430h1000v50H0z" fill="#ff725c"/>
+  <g class="cloud1" opacity=".72"><ellipse cx="154" cy="73" rx="92" ry="24" fill="#fff8e7"/><ellipse cx="215" cy="67" rx="66" ry="31" fill="#fff8e7"/></g><g class="cloud2" opacity=".5"><ellipse cx="770" cy="52" rx="96" ry="23" fill="#fff8e7"/><ellipse cx="835" cy="61" rx="70" ry="28" fill="#fff8e7"/></g>
+  <circle cx="788" cy="260" r="170" fill="#ff725c" opacity=".12"/><circle cx="788" cy="260" r="145" fill="#ff725c" opacity=".12"/>
+  <g transform="translate(792 257)" filter="url(#soft)"><g class="sun"><circle r="119" fill="url(#fruit)"/><ellipse cx="-36" cy="-42" rx="25" ry="42" fill="#ffac98" opacity=".5"/><g class="leaf"><path d="M-75-84l50 8 25-71 25 69 73-20-48 52-59-18-51 31z" fill="#63bd59"/><path d="M2-103l14-56" stroke="#3d9648" stroke-width="15" stroke-linecap="round"/></g></g></g>
+  <circle cx="617" cy="342" r="33" fill="#ff725c"/><path d="M597 318l15 3 6-20 8 19 22-5-14 15-18-5-15 8z" fill="#63bd59"/><circle cx="935" cy="130" r="24" fill="#ffcf4d"/><circle cx="919" cy="110" r="9" fill="#ff725c"/>
+  <rect x="42" y="122" width="128" height="28" rx="14" fill="#173149"/><text class="mono" x="60" y="141" font-size="10" fill="#fff8e7">GROW IN COLOR</text>
+  <text x="40" y="246" font-size="91" font-weight="900" letter-spacing="-6" fill="#173149">Hyhyhyyy</text><path class="line" d="M43 269c91-13 197 18 330-4" fill="none" stroke="#ff5a43" stroke-width="7" stroke-linecap="round"/>
+  <text class="serif" x="43" y="319" font-size="28" font-weight="700" fill="#173149">&#25964;&#65292;&#30495;&#30456;&#19982;&#33258;&#30001;&#12290;</text><text x="44" y="353" font-size="14" fill="#486071">&#22823;&#36830;&#29702;&#24037;&#22823;&#23398; &#183; &#36719;&#20214;&#23398;&#38498; &#183; 2029</text>
+  <text class="mono" x="43" y="414" font-size="10" letter-spacing="1.5" fill="#173149">CURIOUS MIND / STEADY HANDS / BRIGHT IDEAS</text>
 </svg>

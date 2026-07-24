@@ -1,4 +1,4 @@
-# Tomato Laboratory Maintenance
+# Grow in Color Maintenance
 
 ## Files
 
@@ -6,20 +6,20 @@
 - `assets/hero-light.svg`: light-theme hero.
 - `assets/hero-dark.svg`: dark-theme hero.
 - `assets/tomato-runner*.svg`: responsive giant rolling tomato animation.
-- `assets/tomato-lab*.svg`: responsive Tomato OS, X-ray and collider panels.
 - `assets/tomato-heatmap*.svg`: generated contribution ripeness matrices.
-- `assets/quick-facts*.svg`: adaptive GitHub-style desktop and mobile overview widgets.
+- `assets/quick-facts*.svg`: responsive flat-color personal overview.
 - `assets/stats.svg`: generated public statistics.
 - `scripts/update-profile.mjs`: self-hosted statistics generator.
 - `.github/workflows/update-profile.yml`: daily and manual update workflow.
 
 ## Palette
 
-- Acid yellow: `#FFF04A`
+- Cream: `#FFF8E7`
+- Sunshine: `#FFCF4D`
 - Navy: `#173149`
 - Tomato: `#FF4D35`
-- Orange: `#FF9A3D`
-- Cyan: `#48D7E8`
+- Coral: `#FF725C`
+- Cyan: `#69D5D0`
 - Leaf: `#63C54B`
 - Body gray: `#65717A`
 
