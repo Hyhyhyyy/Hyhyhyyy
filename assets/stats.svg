@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="168" viewBox="0 0 1000 168" role="img" aria-labelledby="title desc">
   <title id="title">Hyhyhyyy 的公开 GitHub 数据</title>
-  <desc id="desc">5 个原创公开仓库，7 个星标，主要语言 JavaScript，最近更新于 2026/08/02。</desc>
+  <desc id="desc">7 个原创公开仓库，7 个星标，主要语言 JavaScript，最近更新于 2026/08/04。</desc>
   <style>:root{--card:#f6f8fa;--border:#d0d7de;--fg:#1f2328;--muted:#656d76}text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif}.serif{font-family:Georgia,"Noto Serif SC","Microsoft YaHei",serif}.fg{fill:var(--fg)}.muted{fill:var(--muted)}@media(prefers-color-scheme:dark){:root{--card:#0d1117;--border:#30363d;--fg:#e6edf3;--muted:#8b949e}}</style>
   <rect x="1" y="1" width="998" height="166" rx="6" fill="var(--card)" stroke="var(--border)"/>
   <g transform="translate(950 27)"><circle r="12" fill="#ff5a3c"/><path d="M-7-9l5 1 2-7 3 7 7-2-5 5-6-1-5 3z" fill="#72c45c"/></g>
   <path d="M250 32v103M500 32v103M750 32v103" stroke="var(--border)"/>
   <text class="muted" x="39" y="32" font-size="9" letter-spacing="2">README METRICS · LIVE</text>
   <g text-anchor="middle">
-    <text class="serif fg" x="125" y="91" font-size="31" font-weight="700">5</text>
+    <text class="serif fg" x="125" y="91" font-size="31" font-weight="700">7</text>
     <text class="muted" x="125" y="119" font-size="11" letter-spacing="1.5">原创公开仓库</text>
     <text class="serif" x="375" y="91" font-size="31" font-weight="700" fill="#ff5a3c">7</text>
     <text class="muted" x="375" y="119" font-size="11" letter-spacing="1.5">获得 STARS</text>
     <text class="serif fg" x="625" y="91" font-size="25" font-weight="700">JavaScript</text>
     <text class="muted" x="625" y="119" font-size="11" letter-spacing="1.5">主要语言</text>
-    <text class="serif fg" x="875" y="91" font-size="20" font-weight="700">2026/08/02</text>
+    <text class="serif fg" x="875" y="91" font-size="20" font-weight="700">2026/08/04</text>
     <text class="muted" x="875" y="119" font-size="11" letter-spacing="1.5">最近更新</text>
   </g>
 </svg>
