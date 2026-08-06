@@ -36,24 +36,31 @@
 
 <h2 id="projects">项目与作品</h2>
 
-### [`KeLing`](https://github.com/Hyhyhyyy/KeLing) `Kotlin` `Android`
+### [`train_guard`](https://github.com/Hyhyhyyy/train_guard) `Python`
 
-以 Kotlin 为主的项目实践，在实现功能的同时持续打磨工程能力。
+围绕大模型训练流程的守护与稳定性实践，关注训练过程的质量与可靠性。
 
-### [`KeLingAssistant`](https://github.com/Hyhyhyyy/KeLingAssistant) `Kotlin` `Knowledge Management`
+### [`KeLing3.0`](https://github.com/Hyhyhyyy/KeLing3.0) `Kotlin`
 
-课灵的多端知识管理学习助手，尝试让记录、整理与学习形成连贯体验。
+🌱 课灵 —— 多端知识管理学习助手，让记录、整理与学习形成连贯体验。
 
-### `AIGC` 创新项目
+### [`ChainPass`](https://github.com/Hyhyhyyy/ChainPass) `Java` `Blockchain`
 
-项目获全国大学生软件创新大赛省级三等奖；参与从创意验证、原型设计到实现优化的完整过程。
+基于区块链的跨境数字身份与合规支付解决方案，采用 W3C DID 与可验证凭证（VC）技术，提供自主、隐私保护的数字身份管理。
+
+### [`dlut-ultimate-website`](https://github.com/Hyhyhyyy/dlut-ultimate-website) `JavaScript`
+
+大连理工大学开发区校区黑蚁极限飞盘队官网，呈现球队信息与活动。
+
+### [`md-converter`](https://github.com/Hyhyhyyy/md-converter) `JavaScript`
+
+轻量的 Markdown 转换工具，方便文档格式互转与处理。
 
 <details>
   <summary>翻阅更多项目记录</summary>
   <br>
 
 - [All repositories](https://github.com/Hyhyhyyy?tab=repositories)
-- [111](https://github.com/Hyhyhyyy/111) — Vue practice
 
 </details>
 
