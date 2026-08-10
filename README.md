@@ -10,8 +10,8 @@
 </div>
 
 <p align="center">
-  <a href="#projects">项目与作品</a> ·
   <a href="#skills">能力工具箱</a> ·
+  <a href="#projects">项目与作品</a> ·
   <a href="#about">关于</a>
 </p>
 
@@ -24,13 +24,23 @@
   <img src="./assets/quick-facts.svg" width="100%" alt="软件学院学生、英语能力、AI Agent 基础与大模型训练学习快照">
 </picture>
 
-> [!NOTE]
-> **Now**：正在学习大模型训练与评测，持续构建 AI Agent、前端体验与 Kotlin 工程能力。
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/tomato-runner-mobile.svg">
   <img src="./assets/tomato-runner.svg" width="100%" alt="巨型番茄缓慢滚过明亮而舒展的抽象风景">
 </picture>
+
+<h2 id="skills">🔧 能力工具箱</h2>
+
+⭐ - **编程语言**：Python、Kotlin、Java、JavaScript，并熟悉 C/C++；能根据项目目标快速学习并组合工具。
+
+⭐ - **AI 与大模型**：具备大模型 / 视觉语言模型（LLM/VLM）训练、评测与可靠性保障的实践经验，能开发与优化 AI Agent（含 Token 节省与成本控制）。
+
+⭐ - **前端与可视化**：前端体验优化，熟练使用 HTML5、CSS3、JavaScript 与 React，以及 SVG 动效与 README 美化。
+
+⭐ - **工程与基础设施**：Spring Boot、Vue、FastAPI、SQLite、Docker 与 GitHub Actions；具备区块链（DID / 可验证凭证）应用经验。
+
+⭐ - **协作执行**：性格开朗，执行力强，踏实肯干；重视明确目标、及时反馈与可靠交付。
 
 <h2 id="projects">📚 项目与作品</h2>
 
@@ -74,18 +84,6 @@
 - [All repositories](https://github.com/Hyhyhyyy?tab=repositories)
 
 </details>
-
-<h2 id="skills">🔧 能力工具箱</h2>
-
-⭐ - **编程语言**：Python、Kotlin、Java、JavaScript，并熟悉 C/C++；能根据项目目标快速学习并组合工具。
-
-⭐ - **AI 与大模型**：具备大模型 / 视觉语言模型（LLM/VLM）训练、评测与可靠性保障的实践经验，能开发与优化 AI Agent（含 Token 节省与成本控制）。
-
-⭐ - **前端与可视化**：前端体验优化，熟练使用 HTML5、CSS3、JavaScript 与 React，以及 SVG 动效与 README 美化。
-
-⭐ - **工程与基础设施**：Spring Boot、Vue、FastAPI、SQLite、Docker 与 GitHub Actions；具备区块链（DID / 可验证凭证）应用经验。
-
-⭐ - **协作执行**：性格开朗，执行力强，踏实肯干；重视明确目标、及时反馈与可靠交付。
 
 <h2 id="about">关于</h2>
 
