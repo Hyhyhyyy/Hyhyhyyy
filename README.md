@@ -66,9 +66,6 @@
 
 - GitHub README 美化工具，生成动画横幅、图标与着陆页。
 
-### 📌 [`claude-code`](https://github.com/Hyhyhyyy/claude-code) `Python` `LLM` 🤖
-
-- Claude Code 的独立 Python 功能复刻，完全从零重写，仅用于教育目的。
 
 <details>
   <summary>翻阅更多项目记录</summary>
