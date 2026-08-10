@@ -12,8 +12,6 @@
 <p align="center">
   <a href="#projects">项目与作品</a> ·
   <a href="#skills">能力工具箱</a> ·
-  <a href="#highlights">成长亮点</a> ·
-  <a href="#campus">校园经历</a> ·
   <a href="#about">关于</a>
 </p>
 
@@ -87,19 +85,6 @@ Claude Code 的独立 Python 功能复刻，完全从零重写，仅用于教育
 - **前端与可视化**：前端体验优化，熟练使用 HTML5、CSS3、JavaScript 与 React，以及 SVG 动效与 README 美化。
 - **工程与基础设施**：Spring Boot、Vue、FastAPI、SQLite、Docker 与 GitHub Actions；具备区块链（DID / 可验证凭证）应用经验。
 - **协作执行**：性格开朗，执行力强，踏实肯干；重视明确目标、及时反馈与可靠交付。
-
-<h2 id="highlights">成长亮点</h2>
-
-- [x] **2025—2026 大学生创新创业训练计划**：项目待结题。
-- [x] **全国大学生软件创新大赛**：AIGC 方向项目获省级三等奖。
-- [x] **语言能力**：IELTS 7.5，CET-4 650+。
-- [x] **工作与实践**：具有学生工作、志愿服务和社会实践经验，能够在团队中持续推进任务落地。
-
-<h2 id="campus">校园经历</h2>
-
-大连理工大学软件学院（国际信息与软件学院）大一升大二学生。关注软件产品、AIGC 与智能应用，也在学生工作、志愿服务和社会实践中积累组织、沟通与协作经验。
-
-> 敬，真相与自由！
 
 <h2 id="about">关于</h2>
 
