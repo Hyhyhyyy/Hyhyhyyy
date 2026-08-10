@@ -36,25 +36,41 @@
 
 <h2 id="projects">项目与作品</h2>
 
-### [`train_guard`](https://github.com/Hyhyhyyy/train_guard) `Python`
+### [`train_guard`](https://github.com/Hyhyhyyy/train_guard) `Python` `LLM` `MLOps`
 
-围绕大模型训练流程的守护与稳定性实践，关注训练过程的质量与可靠性。
+本地优先的大模型 / 视觉语言模型（LLM/VLM）训练检查、可靠性事件与受控恢复工具包。
 
-### [`KeLing3.0`](https://github.com/Hyhyhyyy/KeLing3.0) `Kotlin`
+### [`KeLing3.0`](https://github.com/Hyhyhyyy/KeLing3.0) `Kotlin` `Android`
 
 🌱 课灵 —— 多端知识管理学习助手，让记录、整理与学习形成连贯体验。
 
+### [`KeLing2.0`](https://github.com/Hyhyhyyy/KeLing2.0) `Kotlin` `React` `Monorepo`
+
+课灵 2.0 单体仓库：Android 与多端知识管理能力的进阶实践（最受星标项目）。
+
 ### [`ChainPass`](https://github.com/Hyhyhyyy/ChainPass) `Java` `Blockchain`
 
-基于区块链的跨境数字身份与合规支付解决方案，采用 W3C DID 与可验证凭证（VC）技术，提供自主、隐私保护的数字身份管理。
+基于区块链的跨境数字身份与合规支付解决方案，采用 W3C DID 与可验证凭证（VC）技术。
 
-### [`dlut-ultimate-website`](https://github.com/Hyhyhyyy/dlut-ultimate-website) `JavaScript`
+### [`dlut-ultimate-website`](https://github.com/Hyhyhyyy/dlut-ultimate-website) `JavaScript` `Website`
 
 大连理工大学开发区校区黑蚁极限飞盘队官网，呈现球队信息与活动。
 
-### [`md-converter`](https://github.com/Hyhyhyyy/md-converter) `JavaScript`
+### [`md-converter`](https://github.com/Hyhyhyyy/md-converter) `JavaScript` `Markdown`
 
-轻量的 Markdown 转换工具，方便文档格式互转与处理。
+轻量的前端 Markdown ↔ PDF / DOCX 转换工具。
+
+### [`Token_Saver`](https://github.com/Hyhyhyyy/Token_Saver) `Python` `FastAPI`
+
+SkillForge · Token Saver：面向 AI 智能体的 Token 节省与优化框架。
+
+### [`README-beautifier`](https://github.com/Hyhyhyyy/README-beautifier) `Python`
+
+GitHub README 美化工具，生成动画横幅、图标与着陆页。
+
+### [`claude-code`](https://github.com/Hyhyhyyy/claude-code) `Python` `LLM`
+
+Claude Code 的独立 Python 功能复刻，完全从零重写，仅用于教育目的。
 
 <details>
   <summary>翻阅更多项目记录</summary>
@@ -66,21 +82,11 @@
 
 <h2 id="skills">能力工具箱</h2>
 
-- **原型与前端**：原型设计、前端体验优化，HTML5、CSS 与 JavaScript。
-- **编程语言**：C/C++、Python、Kotlin，能够根据项目目标快速学习和组合工具。
-- **AI 实践**：具备使用及编写简单 AI Agent 的基础能力，正在学习大模型训练与评测。
+- **编程语言**：Python、Kotlin、Java、JavaScript，并熟悉 C/C++；能根据项目目标快速学习并组合工具。
+- **AI 与大模型**：具备大模型 / 视觉语言模型（LLM/VLM）训练、评测与可靠性保障的实践经验，能开发与优化 AI Agent（含 Token 节省与成本控制）。
+- **前端与可视化**：前端体验优化，熟练使用 HTML5、CSS3、JavaScript 与 React，以及 SVG 动效与 README 美化。
+- **工程与基础设施**：Spring Boot、Vue、FastAPI、SQLite、Docker 与 GitHub Actions；具备区块链（DID / 可验证凭证）应用经验。
 - **协作执行**：性格开朗，执行力强，踏实肯干；重视明确目标、及时反馈与可靠交付。
-
-<details>
-  <summary>正在整理的知识索引</summary>
-  <br>
-
-- Kotlin、Android 与多端工程实践
-- Web 前端、交互原型与体验优化
-- AI Agent、大模型训练与评测
-- Git、开源协作与项目复盘
-
-</details>
 
 <h2 id="highlights">成长亮点</h2>
 
