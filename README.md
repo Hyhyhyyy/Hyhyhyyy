@@ -44,6 +44,8 @@
 
 <h2 id="projects">📚 项目与作品</h2>
 
+**🤖 AI 与大模型**
+
 ### 📌 [`Qwen3-VL-Med`](https://github.com/Hyhyhyyy/Qwen3-VL-Med) `Python` `LLM` `VLM` 🩺
 
 - Qwen3-VL 医疗领域微调的公开代码仓库：提供全量微调配置模板、四组 LoRA 冻结消融实验与评测工具，聚焦 WSI 病理报告生成的可复现训练研究（已做隐私脱敏）。
@@ -52,17 +54,17 @@
 
 - 本地优先的大模型 / 视觉语言模型（LLM/VLM）训练检查、可靠性事件与受控恢复工具包。
 
+### 📌 [`Token_Saver`](https://github.com/Hyhyhyyy/Token_Saver) `Python` `FastAPI` 💰
+
+- SkillForge · Token Saver：面向 AI 智能体的 Token 节省与优化框架。
+
+**📱 移动应用**
+
 ### 📌 [`KeLing3.0`](https://github.com/Hyhyhyyy/KeLing3.0) `Kotlin` `Android` 🌱
 
 - 🌱 课灵 —— 多端知识管理学习助手，让记录、整理与学习形成连贯体验。
 
-### 📌 [`MLP-2048`](https://github.com/Hyhyhyyy/MLP-2048) `C++` `Game` 🦄
-
-- 基于 EasyX 图形库的《小马宝莉》主题 2048 合成游戏：C++ 编写，含六大角色关卡、剧情 CG、技能与背景音乐。
-
-### 📌 [`ChainPass`](https://github.com/Hyhyhyyy/ChainPass) `Java` `Blockchain` 🔗
-
-- 基于区块链的跨境数字身份与合规支付解决方案，采用 W3C DID 与可验证凭证（VC）技术。
+**🌐 Web 与工具**
 
 ### 📌 [`DUT-ultimate-website`](https://github.com/Hyhyhyyy/DUT-ultimate-website) `JavaScript` `Website` 🥏
 
@@ -72,14 +74,21 @@
 
 - 轻量的前端 Markdown ↔ PDF / DOCX 转换工具。
 
-### 📌 [`Token_Saver`](https://github.com/Hyhyhyyy/Token_Saver) `Python` `FastAPI` 💰
-
-- SkillForge · Token Saver：面向 AI 智能体的 Token 节省与优化框架。
-
 ### 📌 [`README-beautifier2.0`](https://github.com/Hyhyhyyy/README-beautifier2.0) `Python` `Skill` 🎨
 
 - GitHub README 美化技能：基于纯 SMIL 动画横幅（每仓手绘、零预设复用）一键美化仓库首页，支持批量生成动画 Hero、主题图标与着陆页。
 
+**⛓️ 区块链**
+
+### 📌 [`ChainPass`](https://github.com/Hyhyhyyy/ChainPass) `Java` `Blockchain` 🔗
+
+- 基于区块链的跨境数字身份与合规支付解决方案，采用 W3C DID 与可验证凭证（VC）技术。
+
+**🎮 游戏**
+
+### 📌 [`MLP-2048`](https://github.com/Hyhyhyyy/MLP-2048) `C++` `Game` 🦄
+
+- 基于 EasyX 图形库的《小马宝莉》主题 2048 合成游戏：C++ 编写，含六大角色关卡、剧情 CG、技能与背景音乐。
 
 <details>
   <summary>翻阅更多项目记录</summary>
