@@ -44,9 +44,9 @@
 
 <h2 id="projects">📚 项目与作品</h2>
 
-### Qwen3-VL 肝病理多模态训练
+### 📌 [`Qwen3-VL-Med`](https://github.com/Hyhyhyyy/Qwen3-VL-Med) `Python` `LLM` `VLM` 🩺
 
-- 基于 Qwen3-VL 的肝脏病理全切片（WSI）多模态报告生成研究：以全量与 LoRA 微调完成多轮训练，并设计「数据清洗 → 单图形态证据 → 病例级诊断」三层任务分解与冻结消融（视觉塔 / 投影层 / 语言主干），配套可复现的训练—评测流水线与模型 SHA-256 归档。成果正整理为论文素材，下一阶段进入强化学习。
+- Qwen3-VL 医疗领域微调的公开代码仓库：提供全量微调配置模板、四组 LoRA 冻结消融实验与评测工具，聚焦 WSI 病理报告生成的可复现训练研究（已做隐私脱敏）。
 
 ### 📌 [`train_guard`](https://github.com/Hyhyhyyy/train_guard) `Python` `LLM` `MLOps` 🛡️
 
