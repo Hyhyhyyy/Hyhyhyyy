@@ -44,7 +44,7 @@
 
 <h2 id="projects">📚 项目与作品</h2>
 
-**🤖 AI 与大模型**
+## 🤖 AI 与大模型
 
 ### 📌 [`Qwen3-VL-Med`](https://github.com/Hyhyhyyy/Qwen3-VL-Med) `Python` `LLM` `VLM` 🩺
 
@@ -58,13 +58,13 @@
 
 - SkillForge · Token Saver：面向 AI 智能体的 Token 节省与优化框架。
 
-**📱 移动应用**
+## 📱 移动应用
 
 ### 📌 [`KeLing3.0`](https://github.com/Hyhyhyyy/KeLing3.0) `Kotlin` `Android` 🌱
 
 - 🌱 课灵 —— 多端知识管理学习助手，让记录、整理与学习形成连贯体验。
 
-**🌐 Web 与工具**
+## 🌐 Web 与工具
 
 ### 📌 [`DUT-ultimate-website`](https://github.com/Hyhyhyyy/DUT-ultimate-website) `JavaScript` `Website` 🥏
 
@@ -78,13 +78,13 @@
 
 - GitHub README 美化技能：基于纯 SMIL 动画横幅（每仓手绘、零预设复用）一键美化仓库首页，支持批量生成动画 Hero、主题图标与着陆页。
 
-**⛓️ 区块链**
+## ⛓️ 区块链
 
 ### 📌 [`ChainPass`](https://github.com/Hyhyhyyy/ChainPass) `Java` `Blockchain` 🔗
 
 - 基于区块链的跨境数字身份与合规支付解决方案，采用 W3C DID 与可验证凭证（VC）技术。
 
-**🎮 游戏**
+## 🎮 游戏
 
 ### 📌 [`MLP-2048`](https://github.com/Hyhyhyyy/MLP-2048) `C++` `Game` 🦄
 
