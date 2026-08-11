@@ -64,7 +64,7 @@
 
 - 基于区块链的跨境数字身份与合规支付解决方案，采用 W3C DID 与可验证凭证（VC）技术。
 
-### 📌 [`dlut-ultimate-website`](https://github.com/Hyhyhyyy/dlut-ultimate-website) `JavaScript` `Website` 🥏
+### 📌 [`DUT-ultimate-website`](https://github.com/Hyhyhyyy/DUT-ultimate-website) `JavaScript` `Website` 🥏
 
 - 大连理工大学开发区校区黑蚁极限飞盘队官网，呈现球队信息与活动。
 
