@@ -56,9 +56,9 @@
 
 - 🌱 课灵 —— 多端知识管理学习助手，让记录、整理与学习形成连贯体验。
 
-### 📌 [`KeLing2.0`](https://github.com/Hyhyhyyy/KeLing2.0) `Kotlin` `React` `Monorepo` 📚
+### 📌 [`MLP-2048`](https://github.com/Hyhyhyyy/MLP-2048) `C++` `Game` 🦄
 
-- 课灵 2.0 单体仓库：Android 与多端知识管理能力的进阶实践（最受星标项目）。
+- 基于 EasyX 图形库的《小马宝莉》主题 2048 合成游戏：C++ 编写，含六大角色关卡、剧情 CG、技能与背景音乐。
 
 ### 📌 [`ChainPass`](https://github.com/Hyhyhyyy/ChainPass) `Java` `Blockchain` 🔗
 
@@ -76,9 +76,9 @@
 
 - SkillForge · Token Saver：面向 AI 智能体的 Token 节省与优化框架。
 
-### 📌 [`README-beautifier`](https://github.com/Hyhyhyyy/README-beautifier) `Python` 🎨
+### 📌 [`README-beautifier2.0`](https://github.com/Hyhyhyyy/README-beautifier2.0) `Python` `Skill` 🎨
 
-- GitHub README 美化工具，生成动画横幅、图标与着陆页。
+- GitHub README 美化技能：基于纯 SMIL 动画横幅（每仓手绘、零预设复用）一键美化仓库首页，支持批量生成动画 Hero、主题图标与着陆页。
 
 
 <details>
