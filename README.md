@@ -58,11 +58,23 @@
 
 - SkillForge · Token Saver：面向 AI 智能体的 Token 节省与优化框架。
 
+### 📌 [`edgemind`](https://github.com/Hyhyhyyy/edgemind) `Python` `LLM` `Edge` ☁️
+
+- 云边协同的大模型推理与运维自愈平台：基于 Python 标准库零依赖实现，含 KubeEdge 云边通信、vLLM 接入与分层调度、故障根因分析（RCA）与自动修复 Agent，并附 Docker / Kubernetes 部署清单，可在普通笔记本直接运行。
+
 ## 📱 移动应用
 
 ### 📌 [`KeLing3.0`](https://github.com/Hyhyhyyy/KeLing3.0) `Kotlin` `Android` 🌱
 
 - 🌱 课灵 —— 多端知识管理学习助手，让记录、整理与学习形成连贯体验。
+
+### 📌 [`KeLing2.0`](https://github.com/Hyhyhyyy/KeLing2.0) `Kotlin` `Android` 📚
+
+- 课灵 2.0 知识管理学习助手：Kotlin + React 单体仓库，在初代基础上重构工程结构与多端架构，内置知识卡片、标签体系与跨端同步，是课灵系列中星标最多的版本。
+
+### 📌 [`KeLing1.0`](https://github.com/Hyhyhyyy/KeLing1.0) `Kotlin` `Android` 💡
+
+- 课灵初代 AI 学习助手（Kotlin）：集成课表管理、OCR 板书识别、知识点解答与资料云端共享，是课灵知识管理系列的起点。
 
 ## 🌐 Web 与工具
 
@@ -78,11 +90,29 @@
 
 - GitHub README 美化技能：基于纯 SMIL 动画横幅（每仓手绘、零预设复用）一键美化仓库首页，支持批量生成动画 Hero、主题图标与着陆页。
 
+### 📌 [`README-beautifier1.0`](https://github.com/Hyhyhyyy/README-beautifier1.0) `Python` `Skill` 🎨
+
+- README 美化工具 1.0（历史版本）：早期实现的动画横幅、主题图标与着陆页生成，方法平台无关，供任何能绘图并推送 GitHub 的 Agent / 工具复用。
+
+### 📌 [`MyBlog`](https://github.com/Hyhyhyyy/MyBlog) `TypeScript` `Blog` ✍️
+
+- 全栈个人成长博客：Next.js 16 RSC + React 19 + Tailwind v4 + Drizzle / D1（Cloudflare Workers），记录学习与公开表达，GitHub Pages 部署。
+
+### 📌 [`TOMATOMATOO`](https://github.com/Hyhyhyyy/TOMATOMATOO) `JavaScript` `MiniProgram` 🍅
+
+- 双人习惯养成微信小程序：两人绑定、前一天约定次日计划、当天各自完成互见进度，把坚持可视化成一片共享番茄园；基于微信小程序原生 + 云开发 CloudBase，零服务器即可上线。
+
 ## ⛓️ 区块链
 
 ### 📌 [`ChainPass`](https://github.com/Hyhyhyyy/ChainPass) `Java` `Blockchain` 🔗
 
 - 基于区块链的跨境数字身份与合规支付解决方案，采用 W3C DID 与可验证凭证（VC）技术。
+
+## 🔬 研究探索
+
+### 📌 [`neoscholar-ragebait-archive`](https://github.com/Hyhyhyyy/neoscholar-ragebait-archive) `R` `Research` 🔍
+
+- YouTube 引战评论话语研究归档：基于 R 与 YouTube Data API，从 3.4 万条父级评论中用主题聚类与情绪分析比较出镜 / 旁白视频的评论差异；含研究论文、复盘与脱敏数据流程，遵循研究伦理。
 
 ## 🎮 游戏
 
