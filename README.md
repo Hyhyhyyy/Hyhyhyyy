@@ -32,11 +32,12 @@
 
 <h2 id="skills">🔧 能力工具箱</h2>
 
-⭐ - **编程语言**：Python、Kotlin、Java、JavaScript，并熟悉 C/C++；能根据项目目标快速学习并组合工具。
+⭐ - **编程语言**：Python、Kotlin、Java、JavaScript、R，并熟悉 C/C++；能根据项目目标快速学习并组合工具。
 
 ⭐ - **AI 与大模型**：具备大模型 / 视觉语言模型（LLM/VLM）训练、评测与可靠性保障的实践经验——落地过 Qwen3-VL 视觉语言模型的全量与 LoRA 微调、训练—评测流水线与可复现实验管理（checkpoint / 数据集 SHA-256 归档）；能开发与优化 AI Agent（含 Token 节省与成本控制）。
 
 ⭐ - **前端与可视化**：前端体验优化，熟练使用 HTML5、CSS3、JavaScript 与 React，以及 SVG 动效与 README 美化。
+⭐ - **数据分析与科研**：能独立完成「采集—清洗—分析—可视化—论文写作」的研究闭环；熟练使用 R / Python 进行统计分析、主题聚类与情绪分析等文本挖掘，曾用于 YouTube 引战评论话语的实证研究。
 
 ⭐ - **工程与基础设施**：Spring Boot、Vue、FastAPI、SQLite、Docker 与 GitHub Actions；具备区块链（DID / 可验证凭证）应用经验。
 
