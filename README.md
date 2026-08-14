@@ -129,7 +129,12 @@
 </details>
 
 <h2 id="about">关于</h2>
-[![GitHub Roast 评分卡](https://ghfind.com/api/card/mini/hyhyhyyy?theme=dark&lang=zh)](https://ghfind.com/u/hyhyhyyy?ref=badge)
+<a href="https://ghfind.com/u/hyhyhyyy?ref=badge">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/hyhyhyyy?theme=dark&lang=zh" />
+    <img src="https://ghfind.com/api/card/mini/hyhyhyyy?theme=light&lang=zh" alt="GitHub Roast 评分卡" width="440" />
+  </picture>
+</a>
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/tomato-heatmap-mobile.svg">
   <img src="./assets/tomato-heatmap.svg" width="100%" alt="由真实 GitHub 贡献数据生成的番茄成熟度热力图">
