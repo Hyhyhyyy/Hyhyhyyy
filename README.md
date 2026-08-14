@@ -129,19 +129,8 @@
 </details>
 
 <h2 id="about">关于</h2>
-
+[![GitHub Roast 评分卡](https://ghfind.com/api/card/mini/hyhyhyyy?theme=dark&lang=zh)](https://ghfind.com/u/hyhyhyyy?ref=badge)
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/tomato-heatmap-mobile.svg">
   <img src="./assets/tomato-heatmap.svg" width="100%" alt="由真实 GitHub 贡献数据生成的番茄成熟度热力图">
 </picture>
-
-<img src="./assets/stats.svg" width="100%" alt="Public GitHub repositories, stars, primary language and recent update">
-
-<p align="center">
-  <a href="https://github.com/Hyhyhyyy">GitHub</a> ·
-  <a href="https://github.com/Hyhyhyyy?tab=repositories">Repositories</a>
-</p>
-
-<p align="center">
-  <sub>Growth Archive · Public GitHub data only · No visitor tracking</sub>
-</p>
