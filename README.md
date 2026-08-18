@@ -96,10 +96,10 @@
 
 - README 美化工具 1.0（历史版本）：早期实现的动画横幅、主题图标与着陆页生成，方法平台无关，供任何能绘图并推送 GitHub 的 Agent / 工具复用。
 
-### 📌 [`MyBlog`](https://github.com/Hyhyhyyy/MyBlog) `TypeScript` `Blog` ✍️
+### 📌 [`MyBlog`](https://github.com/Hyhyhyyy/MyBlog) `HTML` `Blog` ✍️
 
-- 全栈个人成长博客：Next.js 16 RSC + React 19 + Tailwind v4 + Drizzle / D1（Cloudflare Workers），记录学习与公开表达，
-- [👉 在线访问](https://hyhyhyyy.github.io/MyBlog/)。
+- Neo-Brutalism 风格静态个人博客：纯 HTML/CSS/JS + GitHub Pages 托管，番茄红视觉语言记录学习与公开表达。
+- 在线访问：https://hyhyhyyy.github.io/MyBlog/
 
 ### 📌 [`TOMATOMATOO`](https://github.com/Hyhyhyyy/TOMATOMATOO) `JavaScript` `MiniProgram` 🍅
 
