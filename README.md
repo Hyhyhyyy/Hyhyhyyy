@@ -12,7 +12,6 @@
 <p align="center">
   <a href="#focus">技术方向</a> ·
   <a href="#flagship-projects">代表项目</a> ·
-  <a href="#engineering-trust">工程可信度</a> ·
   <a href="#selected-work">更多作品</a> ·
   <a href="#about">关于</a>
 </p>
@@ -43,15 +42,21 @@
 
 ### [`train_guard`](https://github.com/Hyhyhyyy/train_guard) · Python / LLM / MLOps
 
+[![CI](https://github.com/Hyhyhyyy/train_guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/train_guard/actions/workflows/ci.yml)
+
 本地优先的 LLM/VLM 训练可靠性工具包。零必需依赖核心，覆盖训练前检查、训练中观测、
 结构化事件、检查点验收与显式受控恢复，并提供 CLI、Python API、Web 看板和 SSH TUI。
 
 **证据入口：** [三分钟上手](https://github.com/Hyhyhyyy/train_guard#three-minute-workflow) ·
 [架构](https://github.com/Hyhyhyyy/train_guard/blob/main/ARCHITECTURE.md) ·
 [可靠性边界](https://github.com/Hyhyhyyy/train_guard/blob/main/docs/RELIABILITY.md) ·
-[测试](https://github.com/Hyhyhyyy/train_guard/tree/main/tests)
+[测试](https://github.com/Hyhyhyyy/train_guard/tree/main/tests) ·
+[安全政策](https://github.com/Hyhyhyyy/train_guard/security/policy) ·
+[参与贡献](https://github.com/Hyhyhyyy/train_guard/blob/main/CONTRIBUTING.md)
 
 ### [`Qwen3-VL-Med`](https://github.com/Hyhyhyyy/Qwen3-VL-Med) · Python / VLM / Medical AI
+
+[![Privacy and syntax](https://github.com/Hyhyhyyy/Qwen3-VL-Med/actions/workflows/privacy.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/Qwen3-VL-Med/actions/workflows/privacy.yml)
 
 Qwen3-VL 医疗多图报告微调与评测的公开工程实践。公开 R01–R18 受控实验台账、
 全量与 LoRA 配置、13 项评测协议、冻结消融和隐私/权重发布门禁；仓库仅含脱敏代码、
@@ -60,27 +65,22 @@ Qwen3-VL 医疗多图报告微调与评测的公开工程实践。公开 R01–R
 **证据入口：** [工程成果](https://github.com/Hyhyhyyy/Qwen3-VL-Med#工程成果概览) ·
 [实验台账](https://github.com/Hyhyhyyy/Qwen3-VL-Med/blob/main/docs/RUN_LEDGER.md) ·
 [聚合结果](https://github.com/Hyhyhyyy/Qwen3-VL-Med/blob/main/docs/AGGREGATE_RESULTS.md) ·
-[复现说明](https://github.com/Hyhyhyyy/Qwen3-VL-Med/blob/main/docs/REPRODUCIBILITY.md)
+[复现说明](https://github.com/Hyhyhyyy/Qwen3-VL-Med/blob/main/docs/REPRODUCIBILITY.md) ·
+[安全政策](https://github.com/Hyhyhyyy/Qwen3-VL-Med/security/policy) ·
+[参与贡献](https://github.com/Hyhyhyyy/Qwen3-VL-Med/blob/main/CONTRIBUTING.md)
 
 ### [`Token_Saver`](https://github.com/Hyhyhyyy/Token_Saver) · Python / FastAPI / SQLite
+
+[![Quality gates](https://github.com/Hyhyhyyy/Token_Saver/actions/workflows/regression.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/Token_Saver/actions/workflows/regression.yml)
 
 面向 AI 工作台 Skill 资产的本地优化工具：统一格式校验、语义清洗、Token 预算压缩、
 调用效果追踪与可视化看板，支持 Docker 或本地部署。
 
 **证据入口：** [快速开始](https://github.com/Hyhyhyyy/Token_Saver#快速开始) ·
 [效果度量](https://github.com/Hyhyhyyy/Token_Saver#效果度量) ·
-[测试](https://github.com/Hyhyhyyy/Token_Saver/tree/main/tests)
-
-<h2 id="engineering-trust">🛡️ 工程可信度</h2>
-
-| 项目 | 持续验证 | 安全与贡献入口 |
-| --- | --- | --- |
-| [`train_guard`](https://github.com/Hyhyhyyy/train_guard) | [![CI](https://github.com/Hyhyhyyy/train_guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/train_guard/actions/workflows/ci.yml) | [安全政策](https://github.com/Hyhyhyyy/train_guard/security/policy) · [贡献指南](https://github.com/Hyhyhyyy/train_guard/blob/main/CONTRIBUTING.md) |
-| [`Qwen3-VL-Med`](https://github.com/Hyhyhyyy/Qwen3-VL-Med) | [![Privacy and syntax](https://github.com/Hyhyhyyy/Qwen3-VL-Med/actions/workflows/privacy.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/Qwen3-VL-Med/actions/workflows/privacy.yml) | [安全政策](https://github.com/Hyhyhyyy/Qwen3-VL-Med/security/policy) · [贡献指南](https://github.com/Hyhyhyyy/Qwen3-VL-Med/blob/main/CONTRIBUTING.md) |
-| [`Token_Saver`](https://github.com/Hyhyhyyy/Token_Saver) | [![Quality gates](https://github.com/Hyhyhyyy/Token_Saver/actions/workflows/regression.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/Token_Saver/actions/workflows/regression.yml) | [安全政策](https://github.com/Hyhyhyyy/Token_Saver/security/policy) · [贡献指南](https://github.com/Hyhyhyyy/Token_Saver/blob/main/CONTRIBUTING.md) |
-| [`KeLing3.0`](https://github.com/Hyhyhyyy/KeLing3.0) | [![Quality gates](https://github.com/Hyhyhyyy/KeLing3.0/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/KeLing3.0/actions/workflows/ci.yml) | [安全政策](https://github.com/Hyhyhyyy/KeLing3.0/security/policy) · [贡献指南](https://github.com/Hyhyhyyy/KeLing3.0/blob/main/CONTRIBUTING.md) |
-
-上述项目均启用主分支保护、依赖漏洞提醒、秘密扫描与推送保护、CodeQL，以及私密漏洞报告入口。状态徽章直接来自各仓库主分支工作流，不使用手工填写的“通过”结论。
+[测试](https://github.com/Hyhyhyyy/Token_Saver/tree/main/tests) ·
+[安全政策](https://github.com/Hyhyhyyy/Token_Saver/security/policy) ·
+[参与贡献](https://github.com/Hyhyhyyy/Token_Saver/blob/main/CONTRIBUTING.md)
 
 <h2 id="selected-work">🧩 更多作品</h2>
 
