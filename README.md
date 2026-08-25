@@ -12,6 +12,7 @@
 <p align="center">
   <a href="#focus">技术方向</a> ·
   <a href="#flagship-projects">代表项目</a> ·
+  <a href="#engineering-trust">工程可信度</a> ·
   <a href="#selected-work">更多作品</a> ·
   <a href="#about">关于</a>
 </p>
@@ -69,6 +70,17 @@ Qwen3-VL 医疗多图报告微调与评测的公开工程实践。公开 R01–R
 **证据入口：** [快速开始](https://github.com/Hyhyhyyy/Token_Saver#快速开始) ·
 [效果度量](https://github.com/Hyhyhyyy/Token_Saver#效果度量) ·
 [测试](https://github.com/Hyhyhyyy/Token_Saver/tree/main/tests)
+
+<h2 id="engineering-trust">🛡️ 工程可信度</h2>
+
+| 项目 | 持续验证 | 安全与贡献入口 |
+| --- | --- | --- |
+| [`train_guard`](https://github.com/Hyhyhyyy/train_guard) | [![CI](https://github.com/Hyhyhyyy/train_guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/train_guard/actions/workflows/ci.yml) | [安全政策](https://github.com/Hyhyhyyy/train_guard/security/policy) · [贡献指南](https://github.com/Hyhyhyyy/train_guard/blob/main/CONTRIBUTING.md) |
+| [`Qwen3-VL-Med`](https://github.com/Hyhyhyyy/Qwen3-VL-Med) | [![Privacy and syntax](https://github.com/Hyhyhyyy/Qwen3-VL-Med/actions/workflows/privacy.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/Qwen3-VL-Med/actions/workflows/privacy.yml) | [安全政策](https://github.com/Hyhyhyyy/Qwen3-VL-Med/security/policy) · [贡献指南](https://github.com/Hyhyhyyy/Qwen3-VL-Med/blob/main/CONTRIBUTING.md) |
+| [`Token_Saver`](https://github.com/Hyhyhyyy/Token_Saver) | [![Quality gates](https://github.com/Hyhyhyyy/Token_Saver/actions/workflows/regression.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/Token_Saver/actions/workflows/regression.yml) | [安全政策](https://github.com/Hyhyhyyy/Token_Saver/security/policy) · [贡献指南](https://github.com/Hyhyhyyy/Token_Saver/blob/main/CONTRIBUTING.md) |
+| [`KeLing3.0`](https://github.com/Hyhyhyyy/KeLing3.0) | [![Quality gates](https://github.com/Hyhyhyyy/KeLing3.0/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Hyhyhyyy/KeLing3.0/actions/workflows/ci.yml) | [安全政策](https://github.com/Hyhyhyyy/KeLing3.0/security/policy) · [贡献指南](https://github.com/Hyhyhyyy/KeLing3.0/blob/main/CONTRIBUTING.md) |
+
+上述项目均启用主分支保护、依赖漏洞提醒、秘密扫描与推送保护、CodeQL，以及私密漏洞报告入口。状态徽章直接来自各仓库主分支工作流，不使用手工填写的“通过”结论。
 
 <h2 id="selected-work">🧩 更多作品</h2>
 
