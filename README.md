@@ -31,6 +31,13 @@
 当前重点：持续维护 [`train_guard`](https://github.com/Hyhyhyyy/train_guard)，并整理
 [`Qwen3-VL-Med`](https://github.com/Hyhyhyyy/Qwen3-VL-Med) 的脱敏、可复现实验资产。
 
+<h2>📊 GitHub 公开数据</h2>
+
+<p align="center">
+  <img src="./assets/activity-stats.svg" width="59%" alt="过去一年的 GitHub 公开活动统计">
+  <img src="./assets/languages.svg" width="39%" alt="原创公开仓库的常用语言分布；按代码字节统计，不代表熟练度">
+</p>
+
 <h2 id="flagship-projects">🚀 代表项目</h2>
 
 ### [`train_guard`](https://github.com/Hyhyhyyy/train_guard) · Python / LLM / MLOps

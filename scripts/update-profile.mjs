@@ -5,6 +5,8 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outputs = {
   stats: resolve(root, "assets", "stats.svg"),
+  activity: resolve(root, "assets", "activity-stats.svg"),
+  languages: resolve(root, "assets", "languages.svg"),
   heatmap: resolve(root, "assets", "tomato-heatmap.svg"),
   heatmapMobile: resolve(root, "assets", "tomato-heatmap-mobile.svg"),
 };
@@ -84,6 +86,69 @@ function render({ repositories, stars, language, updated }) {
 `;
 }
 
+function renderActivityStats({ stars, commits, pullRequests, issues, repositories, activeDays }) {
+  const rows = [
+    ["★", "Total stars earned", stars],
+    ["↻", "Commits · last year", commits],
+    ["⑂", "Pull requests · last year", pullRequests],
+    ["!", "Issues · last year", issues],
+    ["▣", "Original public repositories", repositories],
+  ];
+  const rowSvg = rows.map(([icon, label, value], index) => {
+    const y = 90 + index * 39;
+    return `<text x="38" y="${y}" font-size="22" fill="#4493f8">${icon}</text><text class="label" x="78" y="${y}" font-size="15" font-weight="600">${escapeXml(label)}</text><text class="value" x="330" y="${y}" font-size="16" font-weight="700">${escapeXml(value)}</text>`;
+  }).join("");
+  const circumference = 2 * Math.PI * 58;
+  const progress = Math.min(1, activeDays / 365) * circumference;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">Hyhyhyyy GitHub activity</title><desc id="desc">Public GitHub activity during the last year and current original public repositories.</desc>
+  <style>:root{--bg:#fff;--border:#d0d7de;--fg:#385d7a;--muted:#6e8aa1}.label,.value,.title{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;fill:var(--fg)}.muted{fill:var(--muted)}@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--border:#30363d;--fg:#c9d1d9;--muted:#8b949e}}</style>
+  <rect x="1" y="1" width="598" height="298" rx="8" fill="var(--bg)" stroke="var(--border)"/>
+  <text class="title" x="38" y="48" font-size="23" font-weight="700">Hyhyhyyy&apos;s GitHub Activity</text>
+  ${rowSvg}
+  <g transform="translate(495 155) rotate(-90)"><circle r="58" fill="none" stroke="var(--border)" stroke-width="10"/><circle r="58" fill="none" stroke="#78a6c8" stroke-width="10" stroke-linecap="round" stroke-dasharray="${progress.toFixed(1)} ${circumference.toFixed(1)}"/></g>
+  <text class="value" x="495" y="155" text-anchor="middle" font-size="28" font-weight="700">${activeDays}</text><text class="muted" x="495" y="178" text-anchor="middle" font-size="11">ACTIVE DAYS</text>
+  <text class="muted" x="38" y="279" font-size="10">PUBLIC DATA · AUTOMATIC DAILY REFRESH</text>
+</svg>
+`;
+}
+
+const languageColors = {
+  Python: "#3572A5", TypeScript: "#3178C6", JavaScript: "#f1e05a", Kotlin: "#A97BFF",
+  Java: "#b07219", HTML: "#e34c26", CSS: "#663399", Shell: "#89e051", PowerShell: "#012456",
+  C: "#555555", "C++": "#f34b7d", R: "#198CE7", Go: "#00ADD8", Vue: "#41b883",
+};
+
+function renderLanguages(languageBytes) {
+  const entries = [...languageBytes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const total = entries.reduce((sum, [, bytes]) => sum + bytes, 0) || 1;
+  let offset = 0;
+  const segments = entries.map(([name, bytes]) => {
+    const width = bytes / total * 330;
+    const segment = `<rect x="${38 + offset}" y="67" width="${Math.max(width, 1).toFixed(1)}" height="10" fill="${languageColors[name] || "#8b949e"}"/>`;
+    offset += width;
+    return segment;
+  }).join("");
+  const labels = entries.map(([name, bytes], index) => {
+    const column = index % 2;
+    const row = Math.floor(index / 2);
+    const x = 38 + column * 190;
+    const y = 112 + row * 43;
+    const percentage = (bytes / total * 100).toFixed(1);
+    return `<circle cx="${x + 7}" cy="${y - 5}" r="6" fill="${languageColors[name] || "#8b949e"}"/><text class="label" x="${x + 22}" y="${y}" font-size="14">${escapeXml(name)} ${percentage}%</text>`;
+  }).join("");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">Most used languages</title><desc id="desc">Language percentages by code bytes in original, public, non-archived repositories. This is not a skill ranking.</desc>
+  <style>:root{--bg:#fff;--border:#d0d7de;--fg:#385d7a;--muted:#6e8aa1}.label,.title{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;fill:var(--fg)}.muted{fill:var(--muted)}@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--border:#30363d;--fg:#c9d1d9;--muted:#8b949e}}</style>
+  <rect x="1" y="1" width="398" height="298" rx="8" fill="var(--bg)" stroke="var(--border)"/>
+  <text class="title" x="38" y="48" font-size="23" font-weight="700">Most Used Languages</text>
+  <clipPath id="bar"><rect x="38" y="67" width="330" height="10" rx="5"/></clipPath><g clip-path="url(#bar)">${segments}</g>
+  ${labels}
+  <text class="muted" x="38" y="279" font-size="9">BY PUBLIC REPOSITORY BYTES · NOT A SKILL RANKING</text>
+</svg>
+`;
+}
+
 const ripeness = {
   NONE: "#d8dee4",
   FIRST_QUARTILE: "#72d56a",
@@ -151,13 +216,33 @@ async function main() {
   const language =
     [...languages.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0] || "Exploring";
   const updated = formatDate(original[0]?.pushed_at || new Date());
+  const languageResponses = await Promise.all(
+    original.map((repo) => github(`/repos/${encodeURIComponent(username)}/${encodeURIComponent(repo.name)}/languages`)),
+  );
+  const languageBytes = new Map();
+  for (const response of languageResponses) {
+    for (const [name, bytes] of Object.entries(response)) {
+      languageBytes.set(name, (languageBytes.get(name) || 0) + bytes);
+    }
+  }
   const contributionData = await githubGraphql(
-    `query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{weeks{contributionDays{date contributionCount contributionLevel}}}}}}`,
+    `query($login:String!){user(login:$login){contributionsCollection{totalCommitContributions totalIssueContributions totalPullRequestContributions contributionCalendar{totalContributions weeks{contributionDays{date contributionCount contributionLevel}}}}}}`,
     { login: username },
   );
-  const weeks = contributionData.user.contributionsCollection.contributionCalendar.weeks;
+  const collection = contributionData.user.contributionsCollection;
+  const weeks = collection.contributionCalendar.weeks;
+  const activeDays = weeks.flatMap((week) => week.contributionDays).filter((day) => day.contributionCount > 0).length;
   const generated = [
     [outputs.stats, render({ repositories: original.length, stars, language, updated })],
+    [outputs.activity, renderActivityStats({
+      stars,
+      commits: collection.totalCommitContributions,
+      pullRequests: collection.totalPullRequestContributions,
+      issues: collection.totalIssueContributions,
+      repositories: original.length,
+      activeDays,
+    })],
+    [outputs.languages, renderLanguages(languageBytes)],
     [outputs.heatmap, renderHeatmap(weeks)],
     [outputs.heatmapMobile, renderHeatmap(weeks, true)],
   ];
